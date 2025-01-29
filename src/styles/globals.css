@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+
+.active-link{
+    color: rgb(139, 139, 139);
+    font-weight: 600;
+}
+
+body{
+    background-color: #FFF3E2;
+}
+
+.card{
+
+    /* background-color: #D7D3BF; */
+}
+.cardd{
+    max-width: 260px; 
+    min-width: 260px; 
+    /* background-color: #FAF6E3; */
+}
+.card-recipes{
+    max-width: 270px; 
+    min-width: 270px; 
+    /* background-color: #D7D3BF; */
+}
+
+.img{
+    border-radius: 50%;
+}
+ .box{ 
+    border: 2px solid #E7D4B5;
+    /* background-color: white; */
+}
+.btn{
+    background: linear-gradient( #FDCEDF, #F2BED1)
+}
+
+.jjj{
+    border-radius: 50%;
+}
+.containar{
+    overflow-x: auto;
+    white-space: nowrap;
+  scrollbar-width: thin; 
+  scrollbar-color: #E7D4B5 transparent;
+  z-index: 0;
+}
+
+.email {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }
+.ggg{
+    white-space: wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;           
+    -webkit-box-orient: vertical;    
+    overflow: hidden;                
+    text-overflow: ellipsis;        
+    line-height: 20px;             
+    max-height: calc(50px );   
+    width: 100%; 
+}
+.aaa {
+    white-space: wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;          
+    -webkit-box-orient: vertical;    
+    overflow: hidden;                
+    text-overflow: ellipsis;    
+    line-height: 1.5rem;           
+    max-height: calc(4.5rem );   
+    width: 100%;                   
+}
+
+.h-resipes{
+    height: 470px;
+}
+
+.bbb {
+    white-space: wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;          
+    -webkit-box-orient: vertical;    
+    overflow: hidden;                
+    text-overflow: ellipsis;    
+    line-height: 1.5rem;           
+    max-height: calc(4.5rem );   
+    width: 100%;                   
+}
+
+
+/* @media  (max-width:1115px){
+.user-card{
+display: flex;
+justify-content: center;
+}
+} */

@@ -9,7 +9,7 @@ export default function Header() {
     { name: "recipes", path: "/recipes" },
  
     
-  ];
+  ];ok4jih4ei
   const path = usePathname()
   console.log(path);
   
